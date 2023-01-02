@@ -24,6 +24,12 @@ header {
 }
 
 /* Navigation */
+nav a {
+  display: flex;
+  text-align: justify;
+    padding-left: 20px;
+  }
+  
 
 /* Containers */
 div {

@@ -14,7 +14,6 @@ h2
 h3 {
   font-family: "Playfair Display", Times, serif;
   text-align:center;
-  
 }
 
  /* Header */
@@ -23,6 +22,16 @@ header {
  text-align: center;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  font-size: 14px;
+}
 /* Containers */
 
 div {
@@ -55,7 +64,6 @@ a:hover {
 }
 
 nav a {
-  font-size: medium;
   padding-left: 20px;
 }
 

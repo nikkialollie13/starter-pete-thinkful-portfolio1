@@ -19,11 +19,10 @@ h3 {
 
  /* Header */
 
-.header {
+header {
   display: flex;
  text-align:center;
 }
-  
 
 /* Containers */
 
@@ -60,6 +59,10 @@ nav a {
   padding-left: 20px;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
 /* Images */
 img {
   width: 100%;

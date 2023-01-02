@@ -60,8 +60,9 @@ nav a {
 }
 
 .flex-container {
-  display: inline-block;
+  display: flex;
   flex-direction: row;
+  align-items: center;
 }
 /* Images */
 img {

@@ -18,9 +18,9 @@ h3 {
 }
 
 header {
-  display: flex;
-  flex-direction: row;
- text-align: center;
+  display:flex;
+  flex-direction: row-reverse;
+ text-align:right;
 }
 
 /* Containers */

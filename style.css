@@ -55,9 +55,9 @@ a:hover {
   color: #f77f00;
 }
 
-.nav a {
+/* Navigation */
+nav a {
 display: flex;
-flex-direction: row;
   padding-left: 20px;
 }
 

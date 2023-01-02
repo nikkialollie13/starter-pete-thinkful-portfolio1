@@ -22,7 +22,8 @@ header {
     text-align: center;
   }
 
- .navbar {
+ div nav {
+  display: table;
   text-align: center;
   
  }

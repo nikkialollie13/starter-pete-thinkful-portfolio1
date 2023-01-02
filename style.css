@@ -31,10 +31,6 @@ div {
   width: 600px;
 }
 
-div nav {
-  font-size: medium;
-}
-
 article {
   padding: 50px 0;
 }
@@ -59,6 +55,7 @@ a:hover {
 }
 
 nav a {
+  font-size: medium;
   padding-left: 20px;
 }
 

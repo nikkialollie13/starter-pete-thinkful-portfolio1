@@ -23,6 +23,15 @@ header {
     font-size: 30px;
   }
 
+  header div nav {
+    font-size: 28px;
+
+  }
+
+  .clearfix {
+    display: table;
+  }
+
 /* Containers */
 
 div {

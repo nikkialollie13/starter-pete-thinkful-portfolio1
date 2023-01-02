@@ -60,7 +60,7 @@ nav a {
 }
 
 .flex-container {
-  display: flex;
+  display: inline-block;
   flex-direction: row;
 }
 /* Images */

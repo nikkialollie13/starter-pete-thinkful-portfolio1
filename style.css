@@ -18,7 +18,7 @@ h3 {
 }
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .flex-items {
   text-align: center;

@@ -16,13 +16,7 @@ h3 {
   text-align:center;
   
 }
-.container {
-  display: flex;
-  justify-content: space-around;
-}
-.flex-items {
-  align-items: center;
-}
+
  /* Header */
 
 header {
@@ -61,6 +55,7 @@ a:hover {
 }
 
 nav a {
+  display: flex;
   padding-left: 20px;
 }
 

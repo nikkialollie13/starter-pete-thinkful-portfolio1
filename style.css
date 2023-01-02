@@ -18,8 +18,10 @@ h3 {
 
  /* Header */
 
-header {
- text-align: center;
+.header {
+    text-align: center;
+    font-size: 30px;
+  }
 }
 
 /* Containers */

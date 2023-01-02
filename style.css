@@ -16,7 +16,13 @@ h3 {
   text-align:center;
   
 }
-
+.container {
+  display: flex;
+  justify-content: center;
+}
+.flex-items {
+  text-align: center;
+}
  /* Header */
 
 header {
@@ -58,10 +64,6 @@ nav a {
   padding-left: 20px;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
 }
 /* Images */
 img {

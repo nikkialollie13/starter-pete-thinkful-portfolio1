@@ -22,7 +22,7 @@ header {
     text-align: center;
   }
 
- div header nav {
+ nav::after {
   display: table-row;
   text-align: center;
   

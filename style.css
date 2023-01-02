@@ -22,11 +22,28 @@ header {
     text-align: center;
   }
 
- nav::after {
-  display: table-row;
-  text-align: center;
+  .btn {
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
   
- }
+  .btn-about{
+    color: red;
+  }
+  
+  .btn-Portfolio{
+    color: red;
+  }
+  
+  .btn-COntact {
+    color: red;
+    
+  }
+  
 
 /* Containers */
 

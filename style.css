@@ -17,11 +17,21 @@ h3 {
   
 }
 
+ /* Header */
+
 header {
   display:flex;
   flex-direction: row;
  text-align:center;
 }
+
+/* Navigation */
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
 
 /* Containers */
 div {
@@ -54,8 +64,7 @@ a:hover {
 }
 
 nav a {
-  display: flex;
-  align-items: center;
+
   padding-left: 20px;
 }
 

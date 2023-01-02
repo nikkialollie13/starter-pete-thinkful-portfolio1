@@ -20,7 +20,7 @@ h3 {
  /* Header */
 
 header {
- text-align:center;
+ text-align: center;
 }
 
 /* Containers */
@@ -61,7 +61,7 @@ nav a {
 .flex-container {
   display: flex;
   flex-direction: row;
-  text-align: left;
+  text-align: center;
 }
 /* Images */
 img {

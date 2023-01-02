@@ -19,8 +19,8 @@ h3 {
 
 header {
   display:flex;
-  flex-direction: row-reverse;
- text-align:right;
+  flex-direction: row;
+ text-align:center;
 }
 
 /* Containers */
@@ -55,7 +55,7 @@ a:hover {
 
 nav a {
   display: flex;
-  align-items: horizontal;
+  flex-direction: row;
   padding-left: 20px;
 }
 

@@ -56,7 +56,6 @@ a:hover {
 
 nav a {
   display: flex;
-  flex-direction: row-reverse;
   padding-left: 20px;
 }
 

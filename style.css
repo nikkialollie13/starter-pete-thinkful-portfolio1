@@ -20,18 +20,10 @@ h3 {
  /* Header */
 
 header {
-  display:flex;
-  flex-direction: row;
  text-align:center;
 }
 
 /* Navigation */
-
-nav {
-  display: flex;
-  flex-direction: row;
-}
-
 
 /* Containers */
 div {
@@ -63,8 +55,9 @@ a:hover {
   color: #f77f00;
 }
 
-nav a {
-
+.nav a {
+display: flex;
+flex-direction: row;
   padding-left: 20px;
 }
 

@@ -23,7 +23,7 @@ header {
   }
 
  div nav {
-  display: table;
+  display: flex;
   text-align: center;
   
  }

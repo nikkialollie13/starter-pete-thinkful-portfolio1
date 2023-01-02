@@ -15,12 +15,12 @@ h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: ;
 }
 
 /* Header */
 header {
-  text-align: right;
+  text-align: center;
 }
 
 /* Containers */

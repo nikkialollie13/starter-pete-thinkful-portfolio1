@@ -9,11 +9,8 @@ body {
 }
 
 /* Headings */
-h1 {
-  display: flex;
-  flex-direction: column;
-}
-h2,
+h1,
+h2
 h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
@@ -23,6 +20,8 @@ h3 {
 
 /* Header */
 header {
+  display: flex;
+  flex-direction: row;
   text-align: center;
 }
 
@@ -57,6 +56,8 @@ a:hover {
 }
 
 nav a {
+  display: flex;
+  align-items: horizontal;
   padding-left: 20px;
 }
 

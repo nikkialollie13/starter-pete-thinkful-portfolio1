@@ -20,6 +20,7 @@ h3 {
  /* Header */
 
 .header {
+  display: flex;
  text-align:center;
 }
   
@@ -55,10 +56,7 @@ a:hover {
   color: #f77f00;
 }
 
-/* Navigation */
-
-.nav a {
-  display: inline-block;
+nav a {
   padding-left: 20px;
 }
 

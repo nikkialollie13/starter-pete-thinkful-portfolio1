@@ -20,17 +20,12 @@ h3 {
 
 header {
     text-align: center;
-    font-size: 30px;
   }
 
-  header div nav {
-    font-size: 28px;
-
-  }
-
-  .clearfix {
-    display: table;
-  }
+ .navbar {
+  text-align: center;
+  font-size: 28px;
+ }
 
 /* Containers */
 

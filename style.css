@@ -21,7 +21,7 @@ h3 {
   justify-content: space-around;
 }
 .flex-items {
-  text-align: center;
+  align-items: center;
 }
  /* Header */
 

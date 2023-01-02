@@ -23,10 +23,9 @@ header {
  text-align:center;
 }
 
-/* Navigation */
 nav a {
   display: flex;
-  text-align: justify;
+  flex-direction: row;
     padding-left: 20px;
   }
   

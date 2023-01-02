@@ -13,16 +13,12 @@ h1,
 h2
 h3 {
   font-family: "Playfair Display", Times, serif;
-  text-align: center;
-  display: flex;
-  flex-direction: center;
+  text-align:center;
+  
 }
 
-/* Header */
 header {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
+ text-align: center;
 }
 
 /* Containers */

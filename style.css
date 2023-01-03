@@ -59,11 +59,12 @@ a:hover {
 }
 
 nav a {
-
+  display: inline;
   padding-left: 20px;
 }
 
 /* Images */
+
 img {
   width: 100%;
   max-width: 200px;

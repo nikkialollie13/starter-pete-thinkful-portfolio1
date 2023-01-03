@@ -64,6 +64,10 @@ li {
   display: inline;
 }
 
+li a {
+  float: center;
+}
+
 /* Images */
 
 img {

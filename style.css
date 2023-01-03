@@ -61,7 +61,7 @@ nav a {
 }
 
 li {
-  display: inline-block;
+  display: inline-flex;
 }
 
 li a {

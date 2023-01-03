@@ -60,6 +60,14 @@ nav a {
   padding-left: 20px;
 }
 
+li {
+  display: inline;
+}
+
+li a{
+  float: right;
+}
+
 /* Images */
 
 img {

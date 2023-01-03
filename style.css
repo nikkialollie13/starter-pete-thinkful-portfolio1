@@ -9,7 +9,10 @@ body {
 }
 
 /* Headings */
-h1,
+h1 {
+  display:inline;
+}
+
 h2
 h3 {
   font-family: "Playfair Display", Times, serif;
@@ -21,7 +24,7 @@ h3 {
 header {
     text-align: center;
   }
-  
+
 
 /* Containers */
 
@@ -56,6 +59,7 @@ a:hover {
 }
 
 nav a {
+
   padding-left: 20px;
 }
 

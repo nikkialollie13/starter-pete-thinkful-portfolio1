@@ -48,6 +48,7 @@ p {
 }
 
 /* Links */
+
 a:link {
   color: #d62828;
 }
@@ -60,13 +61,6 @@ nav a {
   padding-left: 20px;
 }
 
-li {
-  display: inline-flex;
-}
-
-li a {
-  float: center;
-}
 
 /* Images */
 

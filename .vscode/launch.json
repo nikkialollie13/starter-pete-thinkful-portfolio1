@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "https://nikkialollie13.github.io/starter-pete-thinkful-portfolio1/",
+            "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
         }
     ]

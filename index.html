@@ -15,29 +15,29 @@
     <!-- Header section -->
 
        <header>
-      <h1>Nikkia Riles | Artist
-      <nav>
+          <nav>
+          <seg1>Peter Thinkful| Artist</seg1>
           <a href="#about">About</a>
           <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
-      </nav> 
-      </h1>
-    </header>
-   
+          </nav>
+      </header>
     <main>
       <div>
         <!-- About section -->
         <article id="about">
-          <h2>About</h2>
-          <section>
-            <h3>Hi! I'm Pete Thinkful</h3>
-            <div>
-              <img
-                class="image-circle"
-                src="images/pete-thinkful.png"
-                alt="Pete Thinkful"
-              />
+            <div class="images">
+            <img
+            class="image-circle"
+            src="images/pete-thinkful.png"
+            alt="Pete Thinkful"
+          />
             </div>
+            <about>
+            <h2>About</h2>
+            <h3>Hi! I'm Pete Thinkful</h3>
+          
+            <div>
             <p>I'm an artist living in Denver, Colorado.</p>
             <p>As an artist, I'm interested in:</p>
             <ul>
@@ -49,31 +49,34 @@
               Please feel free to take a look at my website and feel free to
               <a href="#contact">contact me</a>.
             </p>
-          </section>
+          </div>
+          </about>
+        </article>
 
           <section>
             <h3>Pete's Background</h3>
-            <p>
+            <p id="paragraph">
               After graduating college, I became an art teacher and worked with
               beginners and professionals. I love art and my works have been
               featured in major art galleries across the globe.
-            </p>
-            <p>
+              </p>
+              <p></p>
               If you're looking to hire an artist or if you're an artist looking
               for a collaborator for your next project, please reach out! I'm so
               excited to work with other artists to create new art.
             </p>
-          </section>
-        </article>
+            <hr />
 
-        <hr />
+          </section>
+        
+
 
         <!-- Portfolio section -->
+        <h2>Portfolio</h2>
         <article id="portfolio">
-          <h2>Portfolio</h2>
-          <section>
+          <section id="title">
             <h3>Abstract Red</h3>
-            <div>
+            <div id="art">
               <img src="images/abstract-red.png" alt="Abstract Red" />
             </div>
             <p>
@@ -84,7 +87,7 @@
 
           <section>
             <h3>Spiral Zany</h3>
-            <div>
+            <div id="art">
               <img src="images/spiral-zany.png" alt="Spiral Zany" />
             </div>
             <p>
@@ -95,7 +98,7 @@
 
           <section>
             <h3>Melted Rainbow</h3>
-            <div>
+            <div id="art">
               <img src="images/melted-rainbow.png" alt="Melted Rainbow" />
             </div>
             <p>
@@ -104,16 +107,17 @@
             </p>
           </section>
         </article>
-
         <hr />
 
         <!-- Contact section -->
+        <h2>Contact</h2>
         <article id="contact">
-          <h2>Contact</h2>
+          
           <p>
             I'd love to hear from you! Please feel free to contact or follow me:
           </p>
-          <ol>
+          <div id="items">
+          <ol id="list">
             <li>
               <a href="">LinkedIn</a>
             </li>
@@ -124,6 +128,7 @@
               <a href="">Pinterest</a>
             </li>
           </ol>
+          </div>
         </article>
       </div>
     </main>

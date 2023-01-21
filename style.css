@@ -9,11 +9,23 @@ body {
 }
 
 /* Headings */
-h1, 
-h2
+
+h2 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
 h3 {
   font-family: "Playfair Display", Times, serif;
-  text-align:center;
+  text-align: center;
+
+}
+
+seg1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family:"Playfair Display", Times, serif;
+
 }
 
  /* Header */
@@ -21,9 +33,20 @@ h3 {
 header {
     text-align: center;
   }
-
+  
 
 /* Containers */
+
+.container {
+  display:inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: row;
+}
 
 div {
 
@@ -33,18 +56,42 @@ div {
 
 }
 
-article {
-  padding: 50px 0;
+#art {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+
+}
+
+text {
+ font-size: 20px;
+
+}
+
+
+ul {
+  flex: align center left 10px;
+}
+
+
+#about {
+padding: 50px 0;
+display: inline-flex;
+flex-direction:row;
 }
 
 article div {
-  text-align: center;
+ /* flex:auto;*/
   width: 100%;
+
 }
 
 /* Paragraphs */
 p {
   line-height: 1.5;
+  vertical-align: center;
 }
 
 /* Links */
@@ -57,24 +104,42 @@ a:hover {
   color: #f77f00;
 }
 
-nav a {
-  padding-left: 20px;
-}
 
+nav a {
+padding-left: 20px
+}
 
 /* Images */
 
 img {
   width: 100%;
-  max-width: 200px;
-  height: auto;
+  max-width: 300px;
+  height:auto;
 }
+
 
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
   align-items: horizontal;
 
+}
+
+/*Contact */
+#contact {
+  text-align: center;
+}
+
+#list {
+  display: inline-block;
+  
+  
+  
+}
+
+#items {
+  text-align: center;
+  
 }
 
 /* Footer */
